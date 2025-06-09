@@ -3,6 +3,8 @@
 # Technologia
 
 MySql 8.0.42
+Django 3.2.12
+React
 
 # Instalacja
 1. Sklonuj repozytorium
@@ -52,5 +54,7 @@ mysql>`create database tukanoapp;`
 
 11. Otwórz w przeglądarce
     `http://localhost:3000/`
+
+# Funkcjonalności
 
 
