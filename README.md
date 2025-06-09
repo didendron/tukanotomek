@@ -25,5 +25,28 @@ MySql 8.0.42
 5. Zaloguj się hasłem `root`
 
  mysql> `exit`
+ `mysql -u root -p`
+
+6. Utwórz bazę danych tukanoapp
+
+mysql>`create database tukanoapp;`
+
+7. Przejdź do folderu backend
+
+`cd tukanotomek/backend`
+
+8. Uruchom polecenia
+  'pip install -r requirements.txt'
+   `python3 manage.py makemigrations`
+   `python3 manage.py migrate`
+   `python3 manage.py runserver`
+9. Przejdź do folderu frontend i uruchom polecenia
+
+    `cd tukanotomek/frontend`
+   `npm install`
+   `npm start`
+
+10. Otwórz w przeglądarce
+    `http://localhost:3000/`
 
 
