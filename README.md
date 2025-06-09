@@ -38,17 +38,19 @@ mysql>`create database tukanoapp;`
 `cd tukanotomek/backend`
 
 8. Uruchom polecenia
-  'pip install -r requirements.txt'
+
+  `pip install -r requirements.txt`
    `python3 manage.py makemigrations`
    `python3 manage.py migrate`
    `python3 manage.py runserver`
-9. Przejdź do folderu frontend i uruchom polecenia
+   
+10. Przejdź do folderu frontend i uruchom polecenia
 
     `cd tukanotomek/frontend`
    `npm install`
    `npm start`
 
-10. Otwórz w przeglądarce
+11. Otwórz w przeglądarce
     `http://localhost:3000/`
 
 
