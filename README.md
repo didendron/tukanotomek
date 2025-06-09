@@ -25,6 +25,7 @@ MySql 8.0.42
 5. Zaloguj się hasłem `root`
 
  mysql> `exit`
+ 
  `mysql -u root -p`
 
 6. Utwórz bazę danych tukanoapp
