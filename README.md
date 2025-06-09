@@ -20,7 +20,8 @@ MySql 8.0.42
 4. Zmień hasło
 
 `sudo mysql`
-`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+
+mysql>`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';`
 
 5. Zaloguj się hasłem `root`
 
