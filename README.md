@@ -54,7 +54,7 @@ mysql>`create database tukanoapp;`
 
 11. Otwórz w przeglądarce
     `http://localhost:3000/`
-
+Uwagi: do uruchomienia tych poleceń potrzebny jest także Python3 i npm.
 # Funkcjonalności
 Aplikacja wyświetla dwie tabele: jedną z przychodami,drugą z kosztami. Do każdej tabeli można dodać nową transakcję, można także istniejącą transakcję
 zmienić lub usunąć. Można ustawić limit kosztów w aktualnym miesiącu, jeżeli zostanie on przekroczony wyświetlony zostanie alert. Aplikacja zawiera podsumowanie aktualnego
