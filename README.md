@@ -56,5 +56,9 @@ mysql>`create database tukanoapp;`
     `http://localhost:3000/`
 
 # Funkcjonalności
+Aplikacja wyświetla dwie tabele: jedną z przychodami,drugą z kosztami. Do każdej tabeli można dodać nową transakcję, można także istniejącą transakcję
+zmienić lub usunąć. Można ustawić limit kosztów w aktualnym miesiącu, jeżeli zostanie on przekroczony wyświetlony zostanie alert. Aplikacja zawiera podsumowanie aktualnego
+miesiąca i statystyki wydatków(wykres kołowy i słupkowy)
+
 
 
